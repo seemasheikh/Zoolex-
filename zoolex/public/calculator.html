@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+    text-align: center;
+    margin-top: 23px;
+    background-color: rgb(125, 14, 229);
+    
+
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 34px;
+    border-radius: 10px;
+    border :2px solid gold;
+    color:black;
+     
+    
+    
+}
+button{
+    font-size: 40px;
+    background-color: black;
+    width: 100px;
+    height: 57px;
+    border-radius: 5px;
+    color:white;
+    border:2px solid gold;
+    border-radius:19px;
+
+
+}
+.calculator{
+    display:inline-block;
+    background-color: rgb(244, 13, 71);
+    border:2px solid gold;
+    border-radius:19px 19px 0px   0px ;
+    
+
+}
+
+
+</style>
+
+
+
+
+
+<body>
+    <div class="abc"><h1>Calculator</h1></div>
+    <div class="container">
+     <div class="calculator">
+        <input type ="text"name="screen"id="result">
+
+     <table>
+         <tr>
+         <td><button>(</button></td>
+         <td><button>)</button></td>
+         <td><button  onclick="clearResult()">c</button></td>
+         <td><button>%</button></td>
+         </tr>
+         <tr>
+             <td><button onclick="getNumber('7')">7</button></td>
+             <td><button  onclick="getNumber('8')">8</button></td>
+             <td><button onclick="getNumber('9')">9</button></td>
+             <td><button onclick="getNumber('*')">X</button></td>
+             </tr>
+             <tr>
+                 <td><button onclick="getNumber('4')">4</button></td>
+                 <td><button onclick="getNumber('5')">5</button></td>
+                 <td><button onclick="getNumber('6')">6</button></td>
+                 <td><button onclick="getNumber('-')">-</button></td>
+                 </tr>
+                 <tr>
+                     <td><button onclick="getNumber('1')">1</button></td>
+                     <td><button onclick="getNumber('2')">2</button></td>
+                     <td><button onclick="getNumber('3')">3</button></td>
+                     <td><button onclick="getNumber('+')">+</button></td>
+                     </tr>
+                     <tr>
+                         <td><button onclick="getNumber('0')">0</button></td>
+                         <td><button onclick="getNumber('.')">.</button></td>
+                         <td><button onclick="getNumber('/')">/</button></td>
+                         <td><button onclick="getResult('=')">=</button></td>
+                         </tr>
+                             
+     
+     </table>
+    </div>
+     </div>
+
+
+     <script>
+        
+
+
+function getNumber(num){
+    
+    var result=document.getElementById('result')
+    result.value+=num;
+    console.log(num)
+}
+function clearResult(){
+    var result=document.getElementById("result");
+    result.value=""
+}
+function getResult(){
+    var result=document.getElementById("result");
+    result.value=eval(result.value)
+    // console.log(result.value)
+
+
+}
+     </script>
+     <script src="index.js"></script>
+</body>
+</html>

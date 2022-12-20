@@ -1,0 +1,161 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
+
+    
+    
+    
+    .navbar{
+        background-color:rgb(76, 20, 49)!important;
+        color: white !important;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        position: sticky !important;
+        top: 0%;
+        display: flex;
+        width: auto;
+        z-index: 8;
+    }
+    .navbar-brand{
+        color: white!important;
+        /* text-shadow: aqua 2px !important; */
+        margin-top: 0px !important;
+        /* border: 1px solid rgb(198, 221, 65); */
+        border-top-right-radius: 5px !important;
+        border-top-left-radius: 5px !important;
+        /* background-color: blue; */
+    
+    }
+    
+    
+    .fa-building{
+        font-size: 32px !important;
+        color:silver !important;
+        
+    }
+    .fa-home{
+        font-size: 18px !important;
+        color:gold !important;
+    }
+    .fa-industry{
+        font-size: 18px !important;
+        color:gold!important;
+    
+    }
+    .fa-phone{
+        font-size: 18px !important;
+        color:gold!important;
+    
+    }
+    .fa-registered{
+        font-size: 18px !important;
+        color:gold !important;
+    }
+    .nav-link{
+        color:white !important;
+    }
+     /* img */
+     .img{
+        width: 100% !important;
+        height: 30% !important;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+   
+
+
+
+
+/* small card */
+.col{
+    width:200px !important;
+    height: 180px !important;
+    display: flex!important;
+    background-color:rgb(130, 21, 17)!important ;
+
+}
+
+
+.card-img-top{
+    width: 290px!important;
+    height: 210px!important; 
+    border: 2px solid gold !important;
+    border-radius: 25px !important;
+    /* background-color: rgb(130, 21, 17) !important ; */
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-right-radius: 3px !important;
+    box-sizing: border-box !important;
+    border-image-outset: 0px !important;
+    margin-top: 20px;
+    
+}
+.card-title{
+    color:white !important;
+    background-color:rgb(76, 20, 49)!important ;
+    width:105% !important;
+    height: 70px !important;
+    margin-right: 20px!important;
+    margin-left: 0px !important;
+    font-weight: bold !important;
+    border-radius: 35px !important;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-top: 5px!important;
+    padding-top: 20px !important;
+    /* border-top-left-radius: 3px !important; */
+    /* border-bottom-right-radius: 3px !important; */
+    box-shadow: outset 10px solid rgb(48, 74, 11) !important ;
+   margin-bottom: 20px !important;
+}
+
+.col1,.col2,.col3{
+    margin: auto!important;
+    /* border: 2px solid gold !important; */
+    /* border-radius: 25px solid gold !important; */
+    /* outline: none !important; */
+    background-color:rgb(76, 20, 49)!important ; 
+    border-bottom-right-radius: 15px !important;
+
+}
+.card{
+    border:none !important;
+}
+/* bike-hd */
+.bk{
+    text-align: center;
+    font-size: 2rem;
+    color:gold;
+    background-color:rgb(76, 20, 49) ;
+    margin-bottom: 10px;
+}
+/* electronic-item */
+.elc{
+    text-align: center;
+    font-size: 2rem;
+    color:gold;
+    background-color:rgb(76, 20, 49) ;
+    margin-bottom: 10px;
+}
+
+/* furniture */
+.fur{
+    text-align: center;
+    font-size: 2rem;
+    color:gold;
+    background-color:rgb(76, 20, 49) ;
+    margin-bottom: 10px;
+}
+/* kitchen */
+.kit{
+    text-align: center;
+    font-size: 2rem;
+    color:gold;
+    background-color:rgb(76, 20, 49) ;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+    <title>sign up</title>
+</head>
+
+<body>
+    <div class="main">
+         <h1 class="fhd">Registration Form</h1> 
+         <form>
+             Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="name" id="nm"onClick="getName()"><br>
+             <br> 
+            Fathername:<input type="fathername" id="fnm"onMouseOver="overFunction()"onMouseOut="outFunction()"><br>
+          <br>
+            DOB: &nbsp;&nbsp;&nbsp;&nbsp; <input type="text"id="dob"onClick="myDob()"><br>
+          <br>
+          
+            Qualification:<input type="quqlification"id="qul" onfocus="focusFunction()"onblur="blurFunction()"><br>
+          <br>
+            Email:&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"id="email"onclick="getEmail()"><br>
+          <br>
+           phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"id="ph" onClick="getPhone()"><br>
+          <br>
+           <button id="next"onfocus="focusFunction(this)"onblur="blurFunction(this)"onsubmit="foo('plz fill out')">Registered</button>
+         </form>  
+         
+        </div> 
+
+
+        <style>
+            .main{
+    color:gold;
+    font-weight: bold;
+    border:5px solid gold;
+    border-radius: 10px;
+    background-color:rgb(130, 21, 17);
+    width:44%;
+    height:55%;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+}
+@media screen and(max-width:600px){
+    .main{
+        width: 20%;
+    }
+}
+
+
+
+.fhd{
+    color: rgb(85, 8, 34);
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-left:25%; */
+    text-shadow: 1px 2px 0px #980606;
+    text-align: center;
+}
+@media screen and(max-width:600px){
+    #nm,#fnm,#dob,#email,#ph,#qul{
+        font-size: 10px;
+    }
+}
+#nm,#fnm,#dob,#email,#ph,#qul{
+    color:rgb(8, 140, 210);
+    font-size: 20px;
+    /* font-weight:bold; */
+    border:3px solid hotpink;
+    border-radius: 7px;
+
+}
+/* #fnm{
+    color:rgb(21, 51,201);
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 7px;
+
+}
+#dob{
+    color:rgb(21, 51,201);
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 7px;
+
+} */
+#qul{
+    color:rgb(21, 51,201);
+    font-size: 18px;
+    font-weight:100px;
+    border-radius: 5px;
+
+}  
+#next{
+    background-color:rgb(130, 21, 17);
+    color:white;
+    border:2px solid gold;
+    font-size:22px;
+    border-radius: 20px ;
+    /* float: right; */
+    margin-bottom: 10px;
+}
+
+
+        </style>
+
+
+
+        <script src="index.js"></script>
+    
+</body>
+</html>
